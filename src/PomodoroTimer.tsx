@@ -47,9 +47,9 @@ const PomodoroTimer: React.FC = () => {
   const displaySeconds = String(seconds).padStart(2, '0');
 
   return (
-    <div>
-      <h1>Pomodoro Timer</h1>
-      <div>
+    <div className="flex flex-col items-center justify-center h-screen bg-bg-base">
+      <h1 className="text-4xl text-purple font-bold mb-20">Pomodoro Timer</h1>
+      <div className="relative w-64 h-64">
         <CircularProgressbar
           value={percentage}
           text={`${displayMinutes}:${displaySeconds}`}
@@ -62,18 +62,18 @@ const PomodoroTimer: React.FC = () => {
         <img
           src={TomatoLeavesPNG}
           alt="Folhas de Tomate"
-          
+          className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-14 h-auto"
         />
       </div>
-      <div >
+      <div className="mt-10">
         <button 
           onClick={toggleTimer} 
-          >
+          className="px-4 py-2 bg-purple-light text-purple font-medium rounded-md hover:bg-purple hover:text-purple-light border-1 border-purple transition">
           {isActive ? 'Pausar' : 'Iniciar'}
         </button>
         <button 
           onClick={resetTimer} 
-         >
+          className="ml-6 px-4 py-2 bg-purple-light text-purple font-medium rounded-md hover:bg-purple hover:text-red-400 border-1 border-purple transition">
           Resetar
         </button>
       </div>
