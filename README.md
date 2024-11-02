@@ -27,7 +27,7 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/pomodoro-timer.git
+   git clone https://github.com/Isabelle-Fonseca/Pomodoro-Timer.git
 2. Navegue até o diretório do projeto:
    ```bash
    cd pomodoro-timer
