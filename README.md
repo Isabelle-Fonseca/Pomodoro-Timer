@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Pomodoro Timer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![POMODORO](https://github.com/user-attachments/assets/e6247a6a-c47c-4eaa-8d48-b6b44ff19502)
 
-## Available Scripts
+Um temporizador Pomodoro simples construído com React. Ajuda você a gerenciar seu tempo de forma eficaz usando a Técnica Pomodoro, permitindo que você se concentre em tarefas por 25 minutos, seguidos de uma breves pausas.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Temporizador de 25 Minutos**: Inicie uma contagem regressiva de 25 minutos para aumentar sua produtividade.
+- **Indicador de Progresso**: Representação visual do tempo decorrido usando um gráfico de progresso circular.
+- **Pausar e Resetar**: Pause ou redefina o temporizador facilmente com um clique de botão.
+- **Design Responsivo**: Funciona em todos os dispositivos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias Usadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- TypeScript
+- Tailwind CSS para estilização
 
-### `npm test`
+## Como Começar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pré-requisitos
 
-### `npm run build`
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/pomodoro-timer.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd pomodoro-timer
+3. Instale as dependencias:
+   ```bash
+   npm install
+4. Inicie:
+   ```bash
+   npm start
+5. Abra seu navegador e coloque a URL `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Uso
 
-### `npm run eject`
+1. Clique em **Iniciar** para começar o temporizador.
+2. O temporizador contará regressivamente de 25:00.
+3. Você pode pausar o temporizador a qualquer momento clicando em **Pausar**.
+4. Clique em **Resetar** para retornar o temporizador a 25 minutos.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Recursos
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto inclui uma imagem de folhas de tomate para melhorar a aparência visual. Você pode substituir `assets/leaves.png` por sua própria imagem, se desejar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Sinta-se à vontade para fazer qualquer ajuste ou adição que julgar necessário!😊
+   
